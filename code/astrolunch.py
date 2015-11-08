@@ -1,4 +1,5 @@
 #CODIGO DE ASTROLUNCH
+# Nicolas Rocha, Jaime Forero
 
 #Importa las librerias necesarias para analizar la imagen
 import numpy as np
@@ -52,6 +53,7 @@ print ""
 #Eliminamos los bordes de la imagen
 #TODO Revisar valores en caso que el borde cambie de grosor
 new_image_data = 1.0*image_data[ 100:-100 , 100:-100 ]
+final_image_data = new_image_data[1:-1,1:-1]
 
 #Muestra la imagen
 plt.imshow( new_image_data , cmap='gray')
