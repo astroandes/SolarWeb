@@ -1,0 +1,1 @@
+* [Turbulent Diffusion in the Photosphere as Derived from Photospheric Bright Point Motion](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1111.4456)
